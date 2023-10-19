@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+
+    "@typescript-eslint/no-explicit-any": "error",
+
+    // 2 space indentation
+    "@typescript-eslint/indent": [ "error", 2 ],
+
+    // Always add a trailing new line to the end of a file (clean diffs)
+    "eol-last": [ "error", "unix" ],
+
+    "@typescript-eslint/no-require-imports": [ "error" ],
+  }
 }
