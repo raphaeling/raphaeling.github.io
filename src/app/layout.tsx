@@ -28,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${sans.variable} ${mono.variable}`}>
-      <body className={"bg-darkest text-lightest container font-body"}>{children}</body>
+      <body className={"bg-darkest text-lightest container font-body h-screen w-screen items-center"}>
+        {children}
+      </body>
     </html>
   );
 }
