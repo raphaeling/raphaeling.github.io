@@ -14,8 +14,14 @@ const config: Config = {
       "darkest": "rgb(24, 31, 3)",
     },
     fontFamily: {
-      display: ["var(--font-mono)", "Roboto Mono", "monospace"],
+      display: ["var(--font-mono)", "Roboto Mono", "Courier New", "monospace"],
       body: ["var(--font-sans)", "Inter", "Helvetica", "sans-serif"],
+    },
+    fontWeight: {
+      thin: "300",
+      normal: "400",
+      bold: "500",
+      extrabold: "600",
     },
   },
   plugins: [],

@@ -10,8 +10,10 @@ export default function Hero(): JSX.Element {
       <div className="font-thin text-lg leading-6">
         <p>
           I’m a lover of software engineering, design, community, and paving intersections in between.
+          <span className="text-darkest">
+            &nbsp;And if you couldn’t tell from the site colors, I’m also a die-hard matcha enthusiast.
+          </span>
         </p>
-        <br />
         <p>
           I recently graduated Cum Laude from UCLA in Linguistics & Computer Science with minors in Digital
           Humanities and Cognitive Science. I’ve previously built software for an electric car company, an agricultural

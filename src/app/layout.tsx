@@ -11,7 +11,7 @@ const sans = Sans({
 
 const mono = Mono({
   subsets: ["latin"],
-  weight: ["300", "400"],
+  weight: ["300", "400", "500"],
   display: "swap",
   variable: "--font-mono",
 });
