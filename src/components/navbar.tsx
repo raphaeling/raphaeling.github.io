@@ -1,26 +1,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-// export interface NavBarProps {
-//   readonly currentPage: string;
-// }
+import navItems from "@/utils/nav-items";
 
 export default function NavBar(): JSX.Element {
   const currentPage = usePathname();
   return (
-    <ul className="absolute bottom-0 right-10 max-w-lg text-right text-light font-display font-thin text-2xl">
-      <li>
-        <Link href="/" className={currentPage === "/about" || currentPage === "/" ? "font-extrabold" : "" }>about</Link>
-      </li>
-      <li>
-        <Link href="/" className={currentPage === "/experience" ? "font-extrabold" : ""}>experience</Link>
-      </li>
-      <li>
-        <Link href="/" className={currentPage === "/skills" ? "font-extrabold" : ""}>skills</Link>
-      </li>
-      <li>
-        <Link href="/" className={currentPage === "/projects" ? "font-extrabold" : ""}>projects</Link>
-      </li>
+    <ul className="absolute right-10 max-w-lg text-right text-dark font-display font-thin text-2xl">
+      {navItems.map((item, index) => (
+        <li key={index} className={`${"hover:text-light " + (item.url === currentPage ? "text-light font-bold" : "")}`}>
+          <Link href={`${item.url}`}>{item.title}</Link>
+        </li>
+      ))}
     </ul>
   );
 }
