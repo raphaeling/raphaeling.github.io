@@ -9,7 +9,7 @@ export default function Layout({
   return (
     <div className='container'>
       <NavBar />
-      <main className='justify-center px-24 py-24'>
+      <main className='justify-center px-12 md:px-24 py-28'>
         {children}
       </main>
       <Footer />

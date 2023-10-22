@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     colors: {
       'lightest': 'rgb(255, 255, 255)',
+      'lighter': 'rgb(202, 217, 144)',
       'light': 'rgb(140, 152, 94)',
       'dark': 'rgb(70, 79, 35)',
       'darkest': 'rgb(24, 31, 3)',
