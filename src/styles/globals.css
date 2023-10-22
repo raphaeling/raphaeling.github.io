@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 ::selection {
-  background: theme(colors.lighter);
-  color: theme(colors.darkest);
+  background: theme(colors.dark);
+  color: theme(colors.lightest);
 }

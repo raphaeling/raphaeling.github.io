@@ -16,25 +16,22 @@ export default function Hero(): JSX.Element {
         <div className='font-thin text-lg leading-6'>
           <p>
             I’m a lover of software engineering, design, community, and paving intersections in between.
-            {/* <span className="text-darkest">
-              &nbsp;And if you couldn’t tell from the site colors, I’m also a die-hard matcha enthusiast.
-            </span> */}
           </p>
           <br />
           <p>
             I recently graduated Cum Laude from&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>UCLA</ExternalLink>
+            <ExternalLink href='https://www.ucla.edu/' className='underline-offset-4 text-light hover:text-lighter'>UCLA</ExternalLink>
             &nbsp;in Linguistics & Computer Science with minors in&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>Digital Humanities</ExternalLink>
+            <ExternalLink href='https://dh.ucla.edu/' className='underline-offset-4 text-light hover:text-lighter'>Digital Humanities</ExternalLink>
             &nbsp;and&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>Cognitive Science</ExternalLink>
+            <ExternalLink href='https://catalog.registrar.ucla.edu/major/2022/cognitivesciencebs?siteYear=2022' className='underline-offset-4 text-light hover:text-lighter'>Cognitive Science</ExternalLink>
             . I’ve previously built software for&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>an electric car company</ExternalLink>
+            <ExternalLink href='https://www.tesla.com/' className='underline-offset-4 text-light hover:text-lighter'>Tesla</ExternalLink>
             ,&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>an agricultural non-profit</ExternalLink>
+            <ExternalLink href='https://www.farm2people.org/' className='underline-offset-4 text-light hover:text-lighter'>Farm2People</ExternalLink>
             , and&nbsp;
-            <ExternalLink href='' className='underline-offset-4 text-light hover:text-lighter'>a league of streaming platforms</ExternalLink>
-            . Right now, I’m focused on advancing my
+            <ExternalLink href='https://www.linkedin.com/company/disney-streaming/' className='underline-offset-4 text-light hover:text-lighter'>Disney Streaming</ExternalLink>
+            , Right now, I’m focused on advancing my
             skills in front-end development while continuing to gain experience in the full stack.
             {/* As an undergraduate, I advocated for the needs of college
             students in tech at ACM at UCLA and hosted dev workshops and panels for high school students from underserved
