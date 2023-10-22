@@ -2,7 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 
-
+// Wrapper component that takes in an input order to decide the amount of delay. Currently set to just either 0 or 200
+// delay to maximize user experience
 export default function FadeIn({
   children,
   order = 0,

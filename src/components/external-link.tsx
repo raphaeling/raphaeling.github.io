@@ -1,3 +1,4 @@
+// Handles a lot (if not all) of the external links to avoid a bunch of Tailwind boilerplate and enable parametrizing
 export default function ExternalLink({
   children,
   href,
@@ -11,7 +12,14 @@ export default function ExternalLink({
 }) {
   return (
     <span>
-      <a href={`${href}`} target='_blank' className={`transition font-bold ${underline ? 'underline' : ''} ${className}`}>
+      <a
+        href={`${href}`}
+        target='_blank'
+        className={`
+          transition
+          font-bold
+          ${underline ? 'underline' : ''}
+          ${className}`}>
         {children}
       </a>
     </span>
