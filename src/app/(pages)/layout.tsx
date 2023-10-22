@@ -8,7 +8,9 @@ export default function Layout({
 }) {
   return (
     <div className=''>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <main className='justify-center px-12 md:px-24 py-28 text-lg'>
         {children}
       </main>

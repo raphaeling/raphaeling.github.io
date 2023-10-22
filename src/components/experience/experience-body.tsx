@@ -1,0 +1,44 @@
+export default function ExperienceBody(): JSX.Element {
+  return (
+    <div>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+      <p>slay.</p>
+    </div>
+  );
+}
