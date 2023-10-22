@@ -18,8 +18,8 @@
     "indent": [ "error", 2 ],
 
     // Always use single quotes except to escape.
-    "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
-    "jsx-quotes": ["error", "prefer-double"],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "jsx-quotes": ["error", "prefer-single"],
 
     // Syntax uniformity
     "semi": [ "error", "always" ],

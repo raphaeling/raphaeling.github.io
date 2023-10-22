@@ -1,23 +1,23 @@
-import type { Metadata } from "next";
-import "../styles/globals.css";
-import { IBM_Plex_Sans as Sans, Spline_Sans_Mono as Mono } from "next/font/google";
+import type { Metadata } from 'next';
+import '../styles/globals.css';
+import { IBM_Plex_Sans as Sans, Spline_Sans_Mono as Mono } from 'next/font/google';
 
 const sans = Sans({
-  subsets: ["latin"],
-  weight: ["300", "400"],
-  display: "swap",
-  variable: "--font-sans",
+  subsets: ['latin'],
+  weight: ['300', '400'],
+  display: 'swap',
+  variable: '--font-sans',
 });
 
 const mono = Mono({
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  display: "swap",
-  variable: "--font-mono",
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
+  display: 'swap',
+  variable: '--font-mono',
 });
 
 export const metadata: Metadata = {
-  title: "Raphael Gatchalian",
+  title: 'Raphael Gatchalian',
   description: "Raphael Gatchalian's personal website",
 };
 
@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
-      <body className={"bg-darkest text-lightest container font-body h-screen w-screen items-center"}>
+    <html lang='en' className={`${sans.variable} ${mono.variable}`}>
+      <body className={'bg-darkest text-lightest font-body h-screen w-screen items-center'}>
         {children}
       </body>
     </html>
