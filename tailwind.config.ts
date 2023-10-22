@@ -26,9 +26,9 @@ const config: Config = {
     },
     extend: {
       transitionDelay: {
-        '1250': '1500ms',
-        '1500': '1500ms',
-        '1750': '2000ms',
+        '400': '400ms',
+        '600': '800ms',
+        '900': '900ms',
       },
     },
   },

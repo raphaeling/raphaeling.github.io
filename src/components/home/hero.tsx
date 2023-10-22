@@ -5,9 +5,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Hero(): JSX.Element {
   return (
     <div className='max-w-2xl'>
-      <FadeIn>
-        <div className='font-display'>
+      <div className='font-display'>
+        <FadeIn>
           <h1 className='text-4xl pb-2'>Hi, I’m Raphael Gatchalian.</h1>
+        </FadeIn>
+        <FadeIn order={1}>
           <h2 className='flex text-2xl text-light font-thin pb-8'>
             he/him/
             <ExternalLink href='https://en.wiktionary.org/wiki/siya#Tagalog' className='hover:text-lighter'>
@@ -23,9 +25,9 @@ export default function Hero(): JSX.Element {
               </ExternalLink>
             </span>
           </h2>
-        </div>
-      </FadeIn>
-      <FadeIn order={1}>
+        </FadeIn>
+      </div>
+      <FadeIn order={2}>
         <div className='font-thin text-lg leading-6'>
           <p>
             I’m a lover of software engineering, design, community, and paving intersections in between.
