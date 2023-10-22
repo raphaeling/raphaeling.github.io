@@ -8,10 +8,10 @@ export default function Layout({
 }) {
   return (
     <div className=''>
-      <header>
+      <header className='bg-lightest relative'>
         <NavBar />
       </header>
-      <main className='justify-center px-12 md:px-24 py-28 text-lg'>
+      <main className='justify-center px-12 md:px-24 pb-24 pt-64 text-lg'>
         {children}
       </main>
       <Footer />

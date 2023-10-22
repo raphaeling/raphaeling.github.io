@@ -6,9 +6,10 @@ import navItems from '@/utils/nav-items';
 
 export default function NavBar(): JSX.Element {
   const currentPage = usePathname();
+  //'bg-light pt-12 md:pt-24 pb-20 w-48'
   return (
-    <nav className='pt-12 md:pt-24 pb-20 relative'>
-      <ul className='w-lg mr-4 absolute right-10 font-display font-thin text-right text-dark text-2xl'>
+    <nav className='w-48 absolute inset-y-0 right-10 pt-12 md:pt-24 pr-12 mr-10'>
+      <ul className='fixed z-10 w-48 font-display font-thin text-right text-dark text-2xl'>
         {navItems.map((item, index) => (
           <li
             key={index}

@@ -6,3 +6,7 @@
   background: theme(colors.dark);
   color: theme(colors.lightest);
 }
+
+:root {
+  color-scheme: dark;
+}

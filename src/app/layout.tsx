@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className={`${sans.variable} ${mono.variable}`}>
-      <body className={'overflow-x-hidden bg-darkest text-lightest font-body h-screen w-screen items-center'}>
+      <body className={'overflow-x-hidden bg-darkest text-lightest font-body w-screen'}>
         {children}
       </body>
     </html>
