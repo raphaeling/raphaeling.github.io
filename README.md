@@ -1,6 +1,6 @@
 # [raphael's personal website](https://raphaeling.github.io)
 
-Also available on [Vercel](https://raphaeling.vercel.app/). Currently undergoing an overhaul with [Next.js](https://nextjs.org). Stay tuned! 
+Also viewable on [Vercel](https://raphaeling.vercel.app/). Currently undergoing an overhaul with [Next.js](https://nextjs.org). Stay tuned! 
 
 ## Getting Started
 
