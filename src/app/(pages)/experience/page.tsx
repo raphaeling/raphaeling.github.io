@@ -1,4 +1,4 @@
-import FadeIn from '@/components/fade-in';
+import FadeIn from '@/components/root/fade-in';
 
 export default function ExperienceHeading(): JSX.Element {
   return (
@@ -9,6 +9,46 @@ export default function ExperienceHeading(): JSX.Element {
           <h2 className='text-2xl text-light font-thin pb-8'>
             Things I did.
           </h2>
+        </div>
+        <div>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
+          <p>slay.</p>
         </div>
       </div>
     </FadeIn>

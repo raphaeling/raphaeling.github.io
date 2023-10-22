@@ -1,4 +1,4 @@
-import FadeIn from '@/components/fade-in';
+import FadeIn from '@/components/root/fade-in';
 
 export default function Skills(): JSX.Element {
   return (

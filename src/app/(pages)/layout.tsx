@@ -1,5 +1,5 @@
-import Footer from '@/components/footer';
-import NavBar from '@/components/navbar';
+import Footer from '@/components/root/footer';
+import NavBar from '@/components/root/navbar';
 
 export default function Layout({
   children,
@@ -7,9 +7,9 @@ export default function Layout({
   children: React.ReactNode
 }) {
   return (
-    <div className='container'>
+    <div className=''>
       <NavBar />
-      <main className='justify-center px-12 md:px-24 py-28'>
+      <main className='justify-center px-12 md:px-24 py-28 text-lg'>
         {children}
       </main>
       <Footer />
