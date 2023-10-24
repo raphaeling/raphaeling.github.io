@@ -3,12 +3,13 @@ import PageHeading from '@/components/root/PageHeading';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
-export default function Projects(): JSX.Element {
+// Future: talk about design, leadership, and favorites (music, movies, books, food, games)
+export default function More(): JSX.Element {
   return (
     <Fragment>
-      <PageHeading title='Projects.'>
+      <PageHeading title='More of me.'>
         <h2 className='text-2xl text-light font-thin pb-8'>
-          Things I made.
+          Other things I do!
         </h2>
       </PageHeading>
       <PageBody>
