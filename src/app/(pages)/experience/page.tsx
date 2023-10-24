@@ -1,6 +1,6 @@
-import FadeIn from '@/components/root/fade-in';
-import ExperienceHeading from '@/components/experience/experience-heading';
-import ExperienceBody from '@/components/experience/experience-body';
+import FadeIn from '@/components/root/FadeIn';
+import ExperienceHeading from '@/components/experience/ExperienceHeading';
+import ExperienceBody from '@/components/experience/ExperienceBody';
 
 export default function Experience(): JSX.Element {
   return (

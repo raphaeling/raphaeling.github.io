@@ -13,7 +13,7 @@ export default function NavBar(): JSX.Element {
           <li
             key={index}
             className={`
-              transition hover:text-light ${item.url === currentPage ? 'text-light font-bold' : ''}`}>
+              transition hover:text-light ${item.style} ${item.url === currentPage ? 'text-light font-bold' : ''}`}>
             <Link href={`${item.url}`}>{item.title}</Link>
           </li>
         ))}

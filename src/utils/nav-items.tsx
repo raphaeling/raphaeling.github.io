@@ -10,13 +10,18 @@ const navItems = [
     style: '',
   },
   {
+    title: 'projects',
+    url: '/projects' ,
+    style: '',
+  },
+  {
     title: 'skills',
     url: '/skills' ,
     style: '',
   },
   {
-    title: 'projects',
-    url: '/projects' ,
+    title: 'more',
+    url: '/more' ,
     style: '',
   },
 ];

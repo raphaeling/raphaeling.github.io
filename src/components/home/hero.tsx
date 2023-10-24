@@ -1,5 +1,5 @@
-import ExternalLink from '../root/external-link';
-import FadeIn from '../root/fade-in';
+import ExternalLink from '../root/ExternalLink';
+import FadeIn from '../root/FadeIn';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero(): JSX.Element {
@@ -39,38 +39,56 @@ export default function Hero(): JSX.Element {
               href='https://www.ucla.edu/'
               className='underline-offset-4
               text-light hover:text-lighter'>
-                UCLA
+              UCLA
             </ExternalLink>
             &nbsp;in Linguistics & Computer Science with minors in&nbsp;
             <ExternalLink
               href='https://dh.ucla.edu/'
               className='underline-offset-4 text-light hover:text-lighter'>
-                Digital Humanities
+              Digital Humanities
             </ExternalLink>
             &nbsp;and&nbsp;
             <ExternalLink
               href='https://catalog.registrar.ucla.edu/major/2022/cognitivesciencebs?siteYear=2022'
               className='underline-offset-4 text-light hover:text-lighter'>
-                Cognitive Science</ExternalLink>
+              Cognitive Science</ExternalLink>
             . I’ve previously built software for&nbsp;
             <ExternalLink
               href='https://www.tesla.com/'
               className='underline-offset-4 text-light hover:text-lighter'>
-                Tesla
+              Tesla
             </ExternalLink>
             ,&nbsp;
             <ExternalLink
               href='https://www.farm2people.org/'
               className='underline-offset-4 text-light hover:text-lighter'>
-                Farm2People
+              Farm2People
             </ExternalLink>
             , and&nbsp;
             <ExternalLink
               href='https://www.linkedin.com/company/disney-streaming/'
               className='underline-offset-4 text-light hover:text-lighter'>
-                Disney Streaming
+              Disney Streaming
             </ExternalLink>
-            . Right now, I’m focused on advancing my front-end dev skills while continuing
+            , and held leadership roles at&nbsp;
+            <ExternalLink
+              href='https://www.uclaacm.com/'
+              className='underline-offset-4 text-light hover:text-lighter'>
+              ACM at UCLA
+            </ExternalLink>
+            ,&nbsp;
+            <ExternalLink
+              href='https://www.exploretech.la/'
+              className='underline-offset-4 text-light hover:text-lighter'>
+              exploretech.la
+            </ExternalLink>
+            , and&nbsp;
+            <ExternalLink
+              href='https://samahangpilipino.org/'
+              className='underline-offset-4 text-light hover:text-lighter'>
+              Samahang Pilipino
+            </ExternalLink>
+            &nbsp;in undergrad. Right now, I’m focused on advancing my front-end dev skills while continuing
             to gain experience in the full stack.
             {/* As an undergraduate, I advocated for the needs of college
             students in tech at ACM at UCLA and hosted dev workshops and panels for high school students from underserved
