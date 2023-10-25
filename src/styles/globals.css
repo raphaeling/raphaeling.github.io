@@ -10,3 +10,9 @@
 :root {
   color-scheme: dark;
 }
+
+html {
+  background: theme(colors.darkest);
+  background: radial-gradient(circle at 10% 35%, #2F380C 0%, theme(colors.darkest) 30%);
+  background-attachment: fixed;
+}

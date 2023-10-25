@@ -16,7 +16,7 @@ export default function PageLogo({
       <div className={`${className}`}>
         <FadeIn order={-1}>
           <Link href='/'>
-            <Logo className={'transition text-dark hover:text-light max-h-16 w-16'}/>
+            <Logo className={'transition text-light hover:text-lighter max-h-16 w-16'}/>
           </Link>
         </FadeIn>
       </div>
