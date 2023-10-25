@@ -12,7 +12,8 @@ const config: Config = {
       'lighter': 'rgb(202, 217, 144)',
       'light': 'rgb(140, 152, 94)',
       'dark': 'rgb(70, 79, 35)',
-      'darkest': 'rgb(24, 31, 3)',
+      'darker': 'rgb(34, 42, 2)',
+      'darkest': 'rgb(23, 26, 13)',
     },
     fontFamily: {
       display: ['var(--font-mono)', 'Roboto Mono', 'Courier New', 'monospace'],
