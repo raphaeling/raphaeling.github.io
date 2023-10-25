@@ -12,15 +12,19 @@
 }
 
 body {
-  /* background: rgba(23, 26, 13, 0); theme(colors.darkest); */
-  background-image: radial-gradient(rgba(70, 79, 35, 0.3) 1px, transparent 0);
+  /* background-image: radial-gradient(rgba(70, 79, 35, 0.3) 1px, transparent 0); */
+  /* background-image: radial-gradient(circle at 1px 1px, rgba(70, 79, 35, 0.3) 1px, transparent 0);
   background-size: 30px 30px;
-  background-position: -19px -19px;
+  background-position: -19px -19px; */
 }
 
 html {
-  /* background: theme(colors.darkest); */
-  background: radial-gradient(circle at 100px 350px, theme(colors.darker) 0%, theme(colors.darkest) 40%);
+  /* background-image: radial-gradient(rgba(70, 79, 35, 0.3) 1px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -19px -19px; */
+  background-image: radial-gradient(circle at 1px 1px, rgba(70, 79, 35, 0.3) 1px, transparent 0), radial-gradient(circle at 100px 350px, theme(colors.darker) 0%, theme(colors.darkest) 40%);
+  background-size: 30px 30px, 100%;
+  background-position: -19px -19px, 0;
   background-attachment: fixed;
 }
 

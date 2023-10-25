@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import '../styles/globals.css';
 import { IBM_Plex_Sans as Sans, Spline_Sans_Mono as Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 
 const sans = Sans({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang='en' className={`${sans.variable} ${mono.variable}`}>
       <body className={'overflow-x-hidden text-lightest font-body w-screen h-screen'}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
