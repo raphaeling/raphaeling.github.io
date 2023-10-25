@@ -11,8 +11,15 @@
   color-scheme: dark;
 }
 
+body {
+  background: rgba(24, 31, 3, 0);
+  background-image: radial-gradient(rgba(70, 79, 35, 0.3) 1px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -19px -19px;
+}
+
 html {
   background: theme(colors.darkest);
-  background: radial-gradient(circle at 10% 35%, #2F380C 0%, theme(colors.darkest) 30%);
+  background: radial-gradient(circle at 10% 35%, rgba(47, 56, 12, 0.95) 0%, theme(colors.darkest) 40%);
   background-attachment: fixed;
 }
