@@ -15,9 +15,6 @@ export default function PageHeading({
       <FadeIn order={1}>
         <span>{children}</span>
       </FadeIn>
-      {/* <h2 className='text-2xl text-light font-thin pb-8'>
-        Things I made.
-      </h2> */}
     </div>
   );
 }

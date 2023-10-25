@@ -1,11 +1,10 @@
 import PageBody from '@/components/root/PageBody';
 import PageHeading from '@/components/root/PageHeading';
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 export default function Projects(): JSX.Element {
   return (
-    <Fragment>
+    <div className='pt-32'>
       <PageHeading title='Projects.'>
         <h2 className='text-2xl text-light font-thin pb-8'>
           Things I made.
@@ -20,6 +19,6 @@ export default function Projects(): JSX.Element {
           &nbsp;:)
         </p>
       </PageBody>
-    </Fragment>
+    </div>
   );
 }

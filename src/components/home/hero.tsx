@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero(): JSX.Element {
   return (
-    <div className='max-w-2xl'>
+    <div className='max-w-2xl pt-64'>
       <div className='font-display'>
         <FadeIn>
           <h1 className='text-4xl pb-2'>Hi, I’m Raphael Gatchalian.</h1>

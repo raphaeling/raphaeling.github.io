@@ -1,12 +1,11 @@
 import PageBody from '@/components/root/PageBody';
 import PageHeading from '@/components/root/PageHeading';
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 // Future: talk about design, leadership, and favorites (music, movies, books, food, games)
 export default function More(): JSX.Element {
   return (
-    <Fragment>
+    <div className='pt-32'>
       <PageHeading title='More of me.'>
         <h2 className='text-2xl text-light font-thin pb-8'>
           Other things I do!
@@ -21,6 +20,6 @@ export default function More(): JSX.Element {
           &nbsp;:)
         </p>
       </PageBody>
-    </Fragment>
+    </div>
   );
 }

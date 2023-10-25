@@ -1,5 +1,7 @@
-import Footer from '@/components/root/footer';
-import NavBar from '@/components/root/navbar';
+import Footer from '@/components/root/Footer';
+import NavBar from '@/components/root/NavBar';
+import PageLogo from '@/components/root/PageLogo';
+import { Fragment } from 'react';
 
 export default function Layout({
   children,
@@ -7,14 +9,15 @@ export default function Layout({
   children: React.ReactNode
 }) {
   return (
-    <div className=''>
-      <header className='bg-lightest relative'>
+    <Fragment>
+      <header className='relative'>
         <NavBar />
+        <PageLogo className='w-16 pt-12 lg:pt-20 pl-12 md:px-24' />
       </header>
-      <main className='justify-center px-12 md:px-24 pb-24 pt-60 text-lg'>
+      <main className='justify-center px-12 md:px-24 pb-24 text-lg'>
         {children}
       </main>
       <Footer />
-    </div>
+    </Fragment>
   );
 }
