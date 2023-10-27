@@ -25,6 +25,7 @@ export default function FadeIn({
       break;
     case 3:
       delay = 'delay-300';
+      break;
     case -1:
       delay = 'delay-500';
       break;
