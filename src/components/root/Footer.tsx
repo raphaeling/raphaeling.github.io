@@ -3,7 +3,7 @@ import ExternalLink from './ExternalLink';
 
 export default function Footer() {
   return (
-    <div className='px-12 lg:px-24 font-body text-md text-dark font-thin justify-center pt-6 pb-6'>
+    <div className='px-12 lg:px-24 font-body text-md text-dark font-thin justify-center pt-6 pb-4'>
       <p>
         Made with ♡ + matcha using&nbsp;
         <ExternalLink href='https://nextjs.org/' underline className='hover:text-light'>

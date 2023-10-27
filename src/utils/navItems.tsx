@@ -9,21 +9,21 @@ const navItems = [
     url: '/experience' ,
     style: '',
   },
-  {
-    title: 'projects',
-    url: '/projects' ,
-    style: '',
-  },
-  {
-    title: 'skills',
-    url: '/skills' ,
-    style: '',
-  },
-  {
-    title: 'more',
-    url: '/more' ,
-    style: '',
-  },
+  // {
+  //   title: 'projects',
+  //   url: '/projects' ,
+  //   style: '',
+  // },
+  // {
+  //   title: 'skills',
+  //   url: '/skills' ,
+  //   style: '',
+  // },
+  // {
+  //   title: 'more',
+  //   url: '/more' ,
+  //   style: '',
+  // },
 ];
 
 export default navItems;
