@@ -2,6 +2,7 @@ import PageHeading from '@/components/root/PageHeading';
 import PageBody from '@/components/root/PageBody';
 import ExperienceCard from '@/components/experience/ExperienceCard';
 import experienceItems from '@/content/experienceItems';
+import FadeIn from '@/components/root/FadeIn';
 
 export default function Experience(): JSX.Element {
   return (
@@ -12,23 +13,24 @@ export default function Experience(): JSX.Element {
         </h2>
       </PageHeading>
       <PageBody className=''>
-        {experienceItems.map((exp) => {
+        {experienceItems.map((exp, index) => {
           return (
-            <>
-              <ExperienceCard
-                workplace={exp.workplace}
-                title={exp.title}
-                startDate={exp.startDate}
-                endDate={exp.endDate}
-                description={exp.description}
-                skills={exp.skills}
-              />
-            </>
+            <div key={index}>
+              <FadeIn order={index+2}>
+                <ExperienceCard
+                  workplace={exp.workplace}
+                  title={exp.title}
+                  startDate={exp.startDate}
+                  endDate={exp.endDate}
+                  description={exp.description}
+                  skills={exp.skills}
+                />
+              </FadeIn>
+            </div>
           );
         })}
-        {/* <ExperienceCard />
-        <ExperienceCard /> */}
       </PageBody>
     </div>
   );
 }
+

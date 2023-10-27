@@ -23,11 +23,13 @@ export default function FadeIn({
     case 2:
       delay = 'delay-200';
       break;
+    case 3:
+      delay = 'delay-300';
     case -1:
-      delay = 'delay-400';
+      delay = 'delay-500';
       break;
     default:
-      delay = 'delay-300';
+      delay = 'delay-400';
   }
 
   useEffect(() => {
