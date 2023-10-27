@@ -1,8 +1,10 @@
 import ExternalLink from '../root/ExternalLink';
 import FadeIn from '../root/FadeIn';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { RiFileList3Fill } from 'react-icons/ri';
 import PageHeading from '../root/PageHeading';
 import PageButton from '../root/PageButton';
+import Link from 'next/link';
 
 export default function Hero(): JSX.Element {
   return (
@@ -21,6 +23,9 @@ export default function Hero(): JSX.Element {
             <ExternalLink href='https://github.com/raphaeling' className='hover:text-lighter'>
               <FaGithub />
             </ExternalLink>
+            <Link href='/assets/resume.pdf' className='text-light hover:text-lighter'>
+              <RiFileList3Fill />
+            </Link>
           </span>
         </h2>
       </PageHeading>
@@ -81,7 +86,7 @@ export default function Hero(): JSX.Element {
             </ExternalLink>
             , and&nbsp;
             <ExternalLink
-              href='https://samahangpilipino.org/'
+              href='https://instagram.com/samahangpilipino'
               className='underline-offset-4 text-light hover:text-lighter'>
               Samahang Pilipino
             </ExternalLink>

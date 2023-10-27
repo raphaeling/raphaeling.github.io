@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 ::selection {
-  background: theme(colors.dark);
-  color: theme(colors.lightest);
+  background: theme('colors.light');
+  color: theme('colors.darkest');
 }
 
 :root {
@@ -12,8 +12,8 @@
 }
 
 html {
-  background: theme(colors.darkest);
-  background-image: radial-gradient(circle at 1px 1px, rgba(70, 79, 35, 0.3) 1px, transparent 0), radial-gradient(circle at 100px 350px, theme(colors.darker) 0%, theme(colors.darkest) 40%);
+  background: theme('colors.darkest');
+  background-image: radial-gradient(circle at 1px 1px, rgba(70, 79, 35, 0.3) 1px, transparent 0), radial-gradient(circle at 100px 350px, theme('colors.darker') 0%, theme('colors.darkest') 40%);
   background-size: 30px 30px, 100%;
   background-position: -19px -19px, 0;
   background-attachment: fixed;
