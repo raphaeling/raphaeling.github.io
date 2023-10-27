@@ -1,32 +1,29 @@
 import ExternalLink from '../root/ExternalLink';
 import FadeIn from '../root/FadeIn';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import PageHeading from '../root/PageHeading';
+import PageButton from '../root/PageButton';
 
 export default function Hero(): JSX.Element {
   return (
     <div className='max-w-2xl pt-64'>
-      <div className='font-display'>
-        <FadeIn>
-          <h1 className='text-4xl pb-2'>Hi, I’m Raphael Gatchalian.</h1>
-        </FadeIn>
-        <FadeIn order={1}>
-          <h2 className='flex text-2xl text-light font-thin pb-8'>
-            he/him/
-            <ExternalLink href='https://en.wiktionary.org/wiki/siya#Tagalog' className='hover:text-lighter'>
-              siya
+      <PageHeading title='Hi, I’m Raphael Gatchalian.'>
+        <h2 className='flex text-2xl text-light font-thin pb-8'>
+          he/him/
+          <ExternalLink href='https://en.wiktionary.org/wiki/siya#Tagalog' className='hover:text-lighter'>
+            siya
+          </ExternalLink>
+          &nbsp;•&nbsp;
+          <span className='flex space-x-3 my-auto'>
+            <ExternalLink href='https://www.linkedin.com/in/raphaelg09/' className='hover:text-lighter'>
+              <FaLinkedin />
             </ExternalLink>
-            &nbsp;•&nbsp;
-            <span className='flex space-x-3 my-auto'>
-              <ExternalLink href='https://www.linkedin.com/in/raphaelg09/' className='hover:text-lighter'>
-                <FaLinkedin />
-              </ExternalLink>
-              <ExternalLink href='https://github.com/raphaeling' className='hover:text-lighter'>
-                <FaGithub />
-              </ExternalLink>
-            </span>
-          </h2>
-        </FadeIn>
-      </div>
+            <ExternalLink href='https://github.com/raphaeling' className='hover:text-lighter'>
+              <FaGithub />
+            </ExternalLink>
+          </span>
+        </h2>
+      </PageHeading>
       <FadeIn order={2}>
         <div className='font-thin text-lg leading-6'>
           <p>
@@ -94,6 +91,7 @@ export default function Hero(): JSX.Element {
             students in tech at ACM at UCLA and hosted dev workshops and panels for high school students from underserved
             areas of Los Angeles at exploretech.la. */}
           </p>
+          <PageButton label='View my resume' href='/assets/resume.pdf' className='bg-light hover:bg-lighter text-white font-display text-darker font-bold py-2 px-4 mt-8' />
         </div>
       </FadeIn>
     </div>
