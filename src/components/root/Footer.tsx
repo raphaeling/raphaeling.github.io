@@ -22,7 +22,7 @@ export default function Footer() {
           source code
         </ExternalLink>
       </p>
-      <p className='mt-2 font-display text-sm'>
+      <p className='mt-2 font-display text-sm lg:invisible'>
         <Link href='/' className='transition hover:text-light'>
           about
         </Link>
