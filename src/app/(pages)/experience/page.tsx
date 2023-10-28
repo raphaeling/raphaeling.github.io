@@ -18,12 +18,7 @@ export default function Experience(): JSX.Element {
             <div key={index}>
               <FadeIn order={index+2}>
                 <ExperienceCard
-                  workplace={exp.workplace}
-                  title={exp.title}
-                  startDate={exp.startDate}
-                  endDate={exp.endDate}
-                  description={exp.description}
-                  skills={exp.skills}
+                  {...exp} // Syntax shortcut for prop = exp.prop
                 />
               </FadeIn>
             </div>
