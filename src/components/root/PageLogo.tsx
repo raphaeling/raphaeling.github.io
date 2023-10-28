@@ -18,11 +18,11 @@ export default function PageLogo({
     (currentPage !== '/') && (
       <div className={`${className}`}>
         <FadeIn order={-1}>
-          <div className='flex text-2xl'>
+          <div className='flex flex-col sm:flex-row text-xl sm:text-2xl'>
             <Link href='/'>
               <Logo className={'transition text-light hover:text-lighter max-h-16 w-16 mr-4'}/>
             </Link>
-            <span className='flex space-x-3 ml-1 mt-1 mb-auto'>
+            <span className='flex space-x-1 mt-2 sm:space-x-3 sm:ml-1 sm:mt-1 mb-auto'>
               <ExternalLink href='https://www.linkedin.com/in/raphaelg09/' className='text-dark hover:text-light'>
                 <FaLinkedin />
               </ExternalLink>

@@ -14,8 +14,8 @@ export default function ExperienceCard({
   skills: string[],
 }): JSX.Element {
   return (
-    <div className='flex relative mb-6 py-6 px-6 transition hover:bg-dark hover:bg-opacity-20 hover:shadow-sm rounded-xl font-display font-thin'>
-      <div className='text-right text-xl flex-none w-32 lg:w-44 px-4'>
+    <div className='bg-darker sm:flex sm:px-6 sm:py-6 relative mb-6 transition sm:hover:bg-dark sm:hover:bg-opacity-20 sm:hover:shadow-sm rounded-xl font-display font-thin'>
+      <div className='sm:text-right sm:w-40 sm:px-4 text-xl flex-none lg:w-44'>
         <h1 className='font-extrabold mb-1'>
           {workplace}
         </h1>
@@ -23,10 +23,10 @@ export default function ExperienceCard({
           {`${startDate} - ${endDate}`}
         </h3>
       </div>
-      <div className=''> {/* To be used for a line connector for each experience in the future*/}
+      <div className='hidden sm:block'> {/* To be used for a line connector for each experience in the future*/}
         .
       </div>
-      <div className='grow px-4'>
+      <div className='grow sm:px-4 mt-2 sm:mt-0'>
         <h2 className='text-xl text-light mb-1'>
           {title}
         </h2>

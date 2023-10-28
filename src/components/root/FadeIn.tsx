@@ -16,6 +16,7 @@ export default function FadeIn({
   let delay = 'delay-0';
   switch (order) {
     case 0:
+      delay = 'delay-75';
       break;
     case 1:
       delay = 'delay-100';
@@ -27,7 +28,7 @@ export default function FadeIn({
       delay = 'delay-300';
       break;
     case -1:
-      delay = 'delay-500';
+      delay = '';
       break;
     default:
       delay = 'delay-400';

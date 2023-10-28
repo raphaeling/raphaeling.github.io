@@ -8,9 +8,9 @@ import Link from 'next/link';
 
 export default function Hero(): JSX.Element {
   return (
-    <div className='max-w-2xl pt-64'>
+    <div className='max-w-2xl pt-40 sm:pt-64'>
       <PageHeading title='Hi, I’m Raphael Gatchalian.'>
-        <h2 className='flex text-2xl text-light font-thin pb-8'>
+        <h2 className='flex text-xl sm:text-2xl text-light font-thin pb-8'>
           he/him/
           <ExternalLink href='https://en.wiktionary.org/wiki/siya#Tagalog' className='hover:text-lighter'>
             siya
@@ -30,7 +30,7 @@ export default function Hero(): JSX.Element {
         </h2>
       </PageHeading>
       <FadeIn order={2}>
-        <div className='font-thin text-lg leading-6'>
+        <div className='font-thin text-base sm:text-lg leading-6'>
           <p>
             I’m a lover of software engineering, design, community, and paving intersections in between.
           </p>
