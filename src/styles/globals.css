@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::selection {
-  background: theme('colors.light');
+  background: theme('colors.lighter');
   color: theme('colors.darkest');
 }
 
