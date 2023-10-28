@@ -6,7 +6,7 @@ import FadeIn from '@/components/root/FadeIn';
 
 export default function Experience(): JSX.Element {
   return (
-    <div className='pt-20'>
+    <div className='pt-16 sm:pt-20'>
       <PageHeading title='Experience.'>
         <h2 className='text-2xl text-light font-thin pb-8'>
           Things I’ve done.
