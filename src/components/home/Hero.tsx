@@ -30,7 +30,7 @@ export default function Hero(): JSX.Element {
         </h2>
       </PageHeading>
       <FadeIn order={2}>
-        <div className='font-thin text-base sm:text-lg leading-6'>
+        <div className='font-thin text-lg leading-6'>
           <p>
             I’m a lover of software engineering, design, community, and paving intersections in between.
           </p>
@@ -96,7 +96,9 @@ export default function Hero(): JSX.Element {
             students in tech at ACM at UCLA and hosted dev workshops and panels for high school students from underserved
             areas of Los Angeles at exploretech.la. */}
           </p>
-          <PageButton label='View my resume' href='/assets/resume.pdf' className='bg-light hover:bg-lighter text-white font-display text-darker font-bold py-2 px-4 mt-8' />
+          <FadeIn>
+            <PageButton label='View my resume' href='/assets/resume.pdf' className='bg-light hover:bg-lighter text-white font-display text-darker font-bold py-2 px-4 mt-8' />
+          </FadeIn>
         </div>
       </FadeIn>
     </div>
