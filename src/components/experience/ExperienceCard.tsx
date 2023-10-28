@@ -14,7 +14,7 @@ export default function ExperienceCard({
   skills: string[],
 }): JSX.Element {
   return (
-    <div className='sm:flex sm:px-6 sm:py-6 relative mb-6 transition sm:hover:bg-dark sm:hover:bg-opacity-20 sm:hover:shadow-sm rounded-xl font-display font-thin'>
+    <div className='sm:flex sm:px-6 sm:py-6 relative mb-16 sm:mb-6 mt-4 sm:mt-0 transition sm:hover:bg-dark sm:hover:bg-opacity-20 sm:hover:shadow-sm rounded-xl font-display font-thin'>
       <div className='sm:text-right sm:w-40 sm:px-4 text-xl flex-none lg:w-44'>
         <h1 className='font-extrabold mb-1'>
           {workplace}
