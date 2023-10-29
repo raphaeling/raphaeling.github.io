@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 
 // Wrapper component that takes in an input order to decide the amount of delay.
-// Currently accepts up to 4 different delay levels but we'll see if we need more... 
 export default function FadeIn({
   children,
   order = 0,
@@ -36,6 +35,10 @@ export default function FadeIn({
 
   useEffect(() => {
     setAnimate('opacity-100 translate-y-0');
+
+    return () => {
+      setAnimate('');
+    };
   }, []);
   
   return (
