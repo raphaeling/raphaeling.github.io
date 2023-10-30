@@ -12,7 +12,7 @@ const experienceItems = [
     title: 'Software Engineer Intern',
     startDate: '06/21',
     endDate: '09/21',
-    description: 'With the Vehicle Software team, I implemented Infotainment UI automated test scripts for vehicle homologation, navigation, and charging features in Ruby and C++, and worked on day-to-day QA & DevOps tasks such as issue triage, bug fixes, and improving the CI/CD pipeline.',
+    description: 'Implemented Infotainment UI automated test scripting and configuration management for vehicle homologation, navigation, and charging features in Ruby and C++, and worked on vital QA & DevOps tasks such as issue triage, bug fixes, and improving the CI/CD pipeline.',
     skills: ['Ruby', 'C++', 'Bash', 'Docker', 'Jenkins', 'Kubernetes'],
   },
   {
@@ -20,7 +20,7 @@ const experienceItems = [
     title: 'Full Stack Developer',
     startDate: '10/20',
     endDate: '6/21',
-    description: 'At LA Blueprint, I joined a team of 7 designers and developers working together to ideate and build Farm2People, an online marketplace web application employing React.js and Airtable to streamline end-to-end purchase and distribution process of food to buyers and food relief agencies, a process disrupted by the COVID-19 pandemic.',
+    description: 'Joined a team of 7 designers and developers working together to ideate and build Farm2People, an online marketplace web application employing React.js and Airtable to streamline end-to-end purchase and distribution process of food to buyers and food relief agencies, a process disrupted by the COVID-19 pandemic.',
     skills: ['React.js', 'JavaScript', 'Airtable', 'Figma'],
   },
 ];
