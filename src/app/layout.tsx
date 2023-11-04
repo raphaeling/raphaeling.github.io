@@ -18,8 +18,8 @@ const mono = Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Raphael Gatchalian',
-  description: "Raphael Gatchalian's personal website",
+  title: 'Hi, I\'m Raphael Gatchalian.',
+  description: "Raphael Gatchalian's personal website!",
 };
 
 export default function RootLayout({
