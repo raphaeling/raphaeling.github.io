@@ -29,6 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className={`${sans.variable} ${mono.variable}`}>
+      <head>
+        <meta property='og:image' content='/temp-ogimage.png' />
+      </head>
       <body className={'overflow-x-hidden text-lightest font-body w-screen h-screen'}>
         {children}
         <Analytics />
